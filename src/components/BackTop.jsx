@@ -27,8 +27,8 @@ const ToTop = () => {
 			onClick={() => {
 				window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
 			}}
-			className='fixed bottom-[40px] right-[40px] text-4xl rounded-lg hover:scale-125 duration-200'>
-			<FaAngleUp className='text-cream' />
+			className='fixed bottom-[40px] right-[40px] text-4xl rounded-full p-3 bg-cream hover:scale-125 duration-200'>
+			<FaAngleUp className='text-navy' />
 		</button>
 	);
 };
