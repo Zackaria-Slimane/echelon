@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import styles from "../style";
 import Button from "./Button";
 
-const CTA = () => (
+const ActionCall = () => (
 	<section
 		className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col rounded-md box-shadow bg-cream`}>
 		<motion.div
@@ -27,4 +27,4 @@ const CTA = () => (
 	</section>
 );
 
-export default CTA;
+export default ActionCall;

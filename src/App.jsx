@@ -1,20 +1,20 @@
-import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
-import Stats from "./components/Stats";
-import Business from "./components/Bussiness";
-import Billing from "./components/Billing";
-import CardDeal from "./components/CardDeal";
-import Clients from "./components/Clients";
-import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+import SecondHero from "./components/SecondHero";
 import BackTop from "./components/BackTop";
+import Features from "./components/Features";
+import ClientsSection from "./components/ClientsSection";
+import StatSection from "./components/StatSection";
+import ActionCall from "./components/ActionCall";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import CardDeal from "./components/CardDeal";
 
 const App = () => (
 	<div className='bg-primary w-full overflow-hidden'>
 		<BackTop />
 		<div className='sm:px-16 px-6 flex justify-center items-center'>
 			<div className='xl:max-w-[1280px] w-full'>
-				<NavBar />
+				<Navigation />
 			</div>
 		</div>
 
@@ -26,12 +26,12 @@ const App = () => (
 
 		<div className='bg-primary sm:px-16 px-6 justify-center items-center'>
 			<div className='xl:max-w-[1280px] w-full'>
-				<Stats />
-				<Business />
-				<Billing />
+				<StatSection />
+				<Features />
+				<SecondHero />
 				<CardDeal />
-				<Clients />
-				<CTA />
+				<ClientsSection />
+				<ActionCall />
 				<Footer />
 			</div>
 		</div>

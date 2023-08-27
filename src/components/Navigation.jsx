@@ -4,7 +4,7 @@ import menu from "../assets/menu.svg";
 import { FaCottonBureau } from "react-icons/fa6";
 import { navLinks } from "../data";
 
-const NavBar = () => {
+const Navigation = () => {
 	const [toggle, setToggle] = useState(false);
 	return (
 		<nav className='w-full flex py-6 justify-between items-center navbar'>
@@ -57,4 +57,4 @@ const NavBar = () => {
 	);
 };
 
-export default NavBar;
+export default Navigation;

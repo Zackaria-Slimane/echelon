@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { stats } from "../data";
 
-const Stats = () => (
+const StatSection = () => (
 	<section className={`flex justify-center items-center flex-row flex-wrap sm:mb-20 mb-6`}>
 		{stats.map((item) => (
 			<motion.div
@@ -22,4 +22,4 @@ const Stats = () => (
 	</section>
 );
 
-export default Stats;
+export default StatSection;
