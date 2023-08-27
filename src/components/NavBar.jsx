@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { close, menu } from "../assets";
+import close from "../assets/close.svg";
+import menu from "../assets/menu.svg";
 import { FaCottonBureau } from "react-icons/fa6";
 import { navLinks } from "../data";
 
@@ -36,7 +37,7 @@ const NavBar = () => {
 				<div
 					className={`${
 						toggle ? "flex" : "hidden"
-					} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
+					} p-6 bg-navy absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
 					<ul className='list-none flex flex-col justify-end items-center flex-1'>
 						{navLinks.map((item, index) => {
 							return (
