@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import NavBar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
 import Business from "./components/Bussiness";
@@ -14,7 +14,7 @@ const App = () => (
 		<BackTop />
 		<div className='sm:px-16 px-6 flex justify-center items-center'>
 			<div className='xl:max-w-[1280px] w-full'>
-				<Navbar />
+				<NavBar />
 			</div>
 		</div>
 
