@@ -1,7 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ["./index.html", "./src/**/*.{js,jsx}"],
-	mode: "jit",
+	content: ["./src/**/*.{js,jsx,ts,tsx}"],
 	theme: {
 		extend: {
 			animation: {
