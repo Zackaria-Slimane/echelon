@@ -21,7 +21,7 @@ const CardDeal = () => (
 		</motion.div>
 
 		<div className={layout.sectionImg}>
-			<img src={stackes} alt='billing' className='w-[100%] h-[100%] animate-softbounce-slow' />
+			<img src={stackes} alt='billing' className='w-[100%] h-[100%]' />
 		</div>
 	</section>
 );
