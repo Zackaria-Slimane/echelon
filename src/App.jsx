@@ -10,22 +10,23 @@ import Hero from "./components/Hero";
 import CardDeal from "./components/CardDeal";
 
 const App = () => (
-	<div className='bg-primary w-full overflow-hidden'>
+	<div className='bg-primary w-full overflow-hidden mx-auto'>
 		<BackTop />
+
 		<div className='sm:px-16 px-6 flex justify-center items-center'>
-			<div className='xl:max-w-[1280px] w-full'>
+			<div className='xl:max-w-[1280px] mx-auto w-full'>
 				<Navigation />
 			</div>
 		</div>
 
 		<div className='flex justify-center items-start'>
-			<div className='xl:max-w-[1280px] w-full'>
+			<div className='xl:max-w-[1280px] mx-auto w-full'>
 				<Hero />
 			</div>
 		</div>
 
 		<div className='bg-primary sm:px-16 px-6 justify-center items-center'>
-			<div className='xl:max-w-[1280px] w-full'>
+			<div className='xl:max-w-[1280px] mx-auto w-full'>
 				<StatSection />
 				<Features />
 				<SecondHero />
